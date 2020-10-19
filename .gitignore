@@ -1,0 +1,11 @@
+*~
+*.class
+.project
+target
+.settings
+.DS_store
+MANIFEST.MF
+.idea
+*.iml
+*.jar
+bin

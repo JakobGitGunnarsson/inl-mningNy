@@ -1,0 +1,21 @@
+
+1: "git add" använder man när man vill lägga till ändringar i sin arbetskatalog,
+ man talar på det sätt om för git att man vill lägga till dessa ändringar i sin nästa commit.
+
+ "git commit" använder man när man sedan vill lägga till och spara dom senaste ändringarna till det lokala repot.   
+
+2:"git pull" hämtar ändringar i remote repository och uppdaterar ditt lokala repository.
+   "git push" laddar upp dina commits till ett remote repository.
+
+3: "git log" visar historik över din commits med ett unikt nummer för varje commit, metadata om författaren med namn och emailadress,
+ datum och ditt commit medelande. 
+"git status" visar stausen i ditt arbets träd, som vilka filer som blivit ändrade(väntar på att commitas) och vilka filer som inte spåras av din git.
+
+4: Börja commit meddelandet och varje styckeindelning med stor Bokstav, du ska inte ha några punkter heller, 72 tecken eller kortare, skrivet i imerativ form och
+ha en blank linje som separerar beskrivningen ifrån kroppen.
+Innehållet i commit meddelandet ska i sin tur handla om vad man gjort och varför men i dom flesta fall inte hur man gjort sina ändringar.
+
+5:Rebase, revert och reset anänds för att backa koden. 
+ git reset använder man för att återställa grenen och indexet till ett tidigare tillstånd. 
+ git rebase använder man för att slå ihopp olika grenar av commits till en ny bas.
+ git revert använder man för att ändra en dålig commit och sedan skapas en ny commit med ändringen.
